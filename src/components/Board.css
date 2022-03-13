@@ -1,0 +1,12 @@
+.board {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}

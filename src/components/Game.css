@@ -1,0 +1,13 @@
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-right: auto;
+  width: max-content;
+}
+
+.button:hover {
+  background-color: cyan;
+}
