@@ -1,9 +1,16 @@
 import './Square.css';
 
-const Square = (props) => {
+const Square = ({value, onClick}) => {
+  let classes;
+  if (value === 'X') {
+    classes = 'square-red';
+  } else if (value === 'O') {
+    classes = 'square-blue';
+  }
+
   return (
-    <button className="square" onClick={props.onClick}>
-      {props.value}
+    <button className={`square ${classes}`} onClick={onClick}>
+      {value}
     </button>
   );
 };

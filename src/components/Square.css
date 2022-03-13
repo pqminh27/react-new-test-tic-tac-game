@@ -1,5 +1,4 @@
 .square {
-  color: red;
   background: #fff;
   border: 1px solid #999;
   float: left;
@@ -15,4 +14,12 @@
 
 .square:focus {
   outline: none;
+}
+
+.square-red {
+  color: rgb(187, 61, 61);
+}
+
+.square-blue {
+  color: rgb(81, 81, 165);
 }
